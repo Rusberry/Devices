@@ -13,8 +13,8 @@ export default {
 </script>
 
 <template>
-  <div class="">
-    <TheHeader />
+  <TheHeader />
+  <div class="ml-40">
     <TheMain />
     <TheMenu />
   </div>
