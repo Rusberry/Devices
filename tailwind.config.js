@@ -8,6 +8,7 @@ export default {
     extend: {
       backgroundImage:{
         'fulloffice': "url('/src/assets/Background.png')",
+        
       },
       colors: {
         'red': '#e16d6d'
