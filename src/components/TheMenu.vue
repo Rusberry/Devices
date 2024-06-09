@@ -213,9 +213,9 @@ export default {
     fetchModels () {
       // Замените этот метод на фактический вызов API для получения моделей на основе выбранного бренда и ОС
       this.models = [
-        { id: 1, name: 'Model 1' },
-        { id: 2, name: 'Model 2' },
-        { id: 3, name: 'Model 3' }
+        { id: 1, name: 'WC3025' },
+        { id: 2, name: '25245' },
+        { id: 3, name: 'rc9029' }
       ]
     }
   }
