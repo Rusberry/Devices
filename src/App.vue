@@ -8,6 +8,16 @@ export default {
     TheHeader,
     TheMenu,
     TheMain
+  },
+  data () {
+    return {
+      likes: 30
+    }
+  },
+  methods: {
+    addLike () {
+      this.likes += 1
+    }
   }
 }
 </script>

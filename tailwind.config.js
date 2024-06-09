@@ -11,7 +11,8 @@ export default {
         
       },
       colors: {
-        'red': '#e16d6d'
+        'red': '#e16d6d',
+        'black': '#3F3939',
       },
     },
     

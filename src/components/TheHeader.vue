@@ -18,14 +18,13 @@
               />
             </svg>
           </button>
-          <div class="flex justify-start w-1/2 items-end">
+          <div class="flex items-center">
             <input
               type="text"
               class="block w-full p-2 border border-grey-700 rounded-s-full placeholder:italic placeholder:text-slate-400 block bg-white w-full border border-slate-300 focus:outline-none focus:border-sky-500 focus:ring-sky-500 focus:ring-1 sm:text-sm"
               placeholder="Введите модель..."
               name="search"
             />
-
             <button class="bg-red p-2 rounded-e-full">
               <svg
                 width="22"
@@ -40,13 +39,11 @@
                 />
               </svg>
             </button>
+            <div class="text-white ml-4">FAQ</div>
           </div>
         </div>
-        <div class="w-1/4 flex">
-          <div class="text-white">FAQ</div>
-        </div>
       </div>
-      <div class="mt-[18px] w-2/3">
+      <div class="mt-[18px] w-2/3 mb-[70px]">
         <h2 class="text-white">
           Добро пожаловать на наш сайт по поиску драйверов для орг техники и их
           совместимости с РЕД ОС!
