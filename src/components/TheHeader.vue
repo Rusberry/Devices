@@ -3,6 +3,7 @@
     <div class="ml-40">
       <div class="flex items-center">
         <div class="w-1/2 flex mt-[70px]">
+          <router-link to="/">
           <button class="mr-10">
             <svg
               width="22"
@@ -18,6 +19,7 @@
               />
             </svg>
           </button>
+        </router-link>
           <div class="flex items-center">
             <input
               type="text"

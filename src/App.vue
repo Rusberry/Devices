@@ -14,8 +14,7 @@ export default {
 <template>
   <TheHeader />
   <div class="ml-40">
-    <TheMenu />
-    <TheMain />
+    <router-view></router-view>
   </div>
 </template>
 
