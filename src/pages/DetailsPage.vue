@@ -1,5 +1,5 @@
 <template>
-  <div class="container mx-auto py-8">
+  <div class="">
     <h1 class="text-2xl font-bold mb-4">Детали устройства</h1>
     <div class="mb-6">
       <p><strong>Тип устройства:</strong> {{ device.deviceType }}</p>
