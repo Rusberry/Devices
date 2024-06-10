@@ -4,22 +4,22 @@
       <div class="flex items-center">
         <div class="w-1/2 flex mt-[70px]">
           <router-link to="/">
-          <button class="mr-10">
-            <svg
-              width="22"
-              height="30"
-              viewBox="0 0 27 30"
-              fill="none"
-              xmlns="http://www.w3.org/2000/svg"
-            >
-              <path
-                d="M2.7735 27.2265H9.32126V16.7912H17.5077V27.2265H24.0555V11.265L13.4145 3.21687L2.7735 11.265V27.2265ZM1 29V10.3783L13.4145 1L25.829 10.3783V29H15.7342V18.5647H11.0948V29H1Z"
-                fill="white"
-                stroke="white"
-              />
-            </svg>
-          </button>
-        </router-link>
+            <button class="mr-10">
+              <svg
+                width="22"
+                height="30"
+                viewBox="0 0 27 30"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M2.7735 27.2265H9.32126V16.7912H17.5077V27.2265H24.0555V11.265L13.4145 3.21687L2.7735 11.265V27.2265ZM1 29V10.3783L13.4145 1L25.829 10.3783V29H15.7342V18.5647H11.0948V29H1Z"
+                  fill="white"
+                  stroke="white"
+                />
+              </svg>
+            </button>
+          </router-link>
           <div class="flex items-center">
             <input
               type="text"
@@ -41,7 +41,9 @@
                 />
               </svg>
             </button>
-            <div class="text-white ml-4">FAQ</div>
+            <router-link to="/compatible">
+              <div class="text-white ml-4">Совместимое ПО</div>
+            </router-link>
           </div>
         </div>
       </div>
