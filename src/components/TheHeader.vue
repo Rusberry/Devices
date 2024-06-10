@@ -2,7 +2,7 @@
   <header class="flex flex-col bg-fulloffice h-1/2 bg-cover">
     <div class="ml-40">
       <div class="flex items-center">
-        <div class="w-1/2 flex mt-[70px]">
+        <div class="w-1/2 flex mt-[50px]">
           <router-link to="/">
             <button class="mr-10">
               <svg
@@ -42,12 +42,12 @@
               </svg>
             </button>
             <router-link to="/compatible">
-              <div class="text-white ml-4">Совместимое ПО</div>
+              <div class="text-white ml-4">Совместимость</div>
             </router-link>
           </div>
         </div>
       </div>
-      <div class="mt-[18px] w-2/3 mb-[70px]">
+      <div class="mt-[18px] w-2/3 mb-[50px]">
         <h2 class="text-white">
           Добро пожаловать на наш сайт по поиску драйверов для орг техники и их
           совместимости с РЕД ОС!
