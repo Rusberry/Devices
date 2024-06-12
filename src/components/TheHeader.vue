@@ -1,8 +1,17 @@
 <template>
   <header class="flex flex-col bg-fulloffice h-1/2 bg-cover">
     <div class="ml-40">
+      <h1 class="text-white mt-[24px] w-2/3">
+        Отечественное программное обеспечения и радиоэлектронная продукция
+      </h1>
+      <!-- <div class="mt-[18px] w-2/3 mb-[50px]">
+        <h2 class="text-white">
+          Добро пожаловать на наш сайт по поиску драйверов для орг техники, их
+          совместимости с РЕД ОС и отечественных аналогово программ!
+        </h2>
+      </div> -->
       <div class="flex items-center">
-        <div class="w-1/2 flex mt-[50px]">
+        <div class="w-1/2 flex mt-[24px] mb-[24px]">
           <router-link to="/">
             <button class="mr-10">
               <svg
@@ -46,16 +55,6 @@
             </router-link>
           </div>
         </div>
-      </div>
-      <div class="mt-[18px] w-2/3 mb-[50px]">
-        <h2 class="text-white">
-          Добро пожаловать на наш сайт по поиску драйверов для орг техники и их
-          совместимости с РЕД ОС!
-        </h2>
-        <h2 class="text-white mt-[18px] w-2/3">
-          Здесь вы можете найти необходимые драйверы для своей модели принтера
-          или МФУ
-        </h2>
       </div>
     </div>
   </header>

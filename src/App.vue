@@ -1,12 +1,8 @@
 <script>
 import TheHeader from './components/TheHeader.vue'
-import TheMenu from './components/TheMenu.vue'
-import TheMain from './components/TheMain.vue'
 export default {
   components: {
-    TheHeader,
-    TheMenu,
-    TheMain
+    TheHeader
   }
 }
 </script>
