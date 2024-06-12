@@ -49,11 +49,23 @@ export default {
   data () {
     return {
       printers: [
-        { id: 1, brand: 'HP', model: 'LaserJet Pro M404dn' },
-        { id: 2, brand: 'Canon', model: 'PIXMA TS9120' },
-        { id: 3, brand: 'Epson', model: 'EcoTank ET-2720' },
-        { id: 4, brand: 'Brother', model: 'HL-L2350DW' },
-        { id: 5, brand: 'Xerox', model: 'Phaser 6510' }
+        { id: 1, brand: 'Canon', model: 'IPF 770' },
+        { id: 2, brand: 'Canon', model: 'LBP 623C' },
+        { id: 3, brand: 'HP', model: 'color LJ CP3525' },
+        { id: 4, brand: 'HP', model: 'color LJ Pro 200' },
+        { id: 5, brand: 'HP', model: 'LJ 2420' },
+        { id: 6, brand: 'HP', model: 'LJ 300' },
+        { id: 7, brand: 'HP', model: 'LJ 4200' },
+        { id: 8, brand: 'HP', model: 'LJ 5200' },
+        { id: 9, brand: 'HP', model: 'LJ 9040' },
+        { id: 10, brand: 'HP', model: 'LJ P2035' },
+        { id: 11, brand: 'HP', model: 'LJ P3015' },
+        { id: 12, brand: 'HP', model: 'LJ Pro CP1025' },
+        { id: 13, brand: 'Kyocera', model: 'P2040' },
+        { id: 14, brand: 'Pantum', model: 'M7100DW' },
+        { id: 15, brand: 'Xerox', model: '5019' },
+        { id: 16, brand: 'Xerox', model: '6128' },
+        { id: 17, brand: 'Xerox', model: 'M118' }
       ]
     }
   }
